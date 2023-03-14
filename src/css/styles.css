@@ -4,15 +4,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-/* padding: 1rem; */
+padding: 1rem;
 }
 
 header {
-    /* padding: 15px; */
+    padding: 15px;
   }
 
   .logo-box {
-    /* min-width: 20px; */
+    min-width: 20px;
     min-height: 20px;
   }
 
@@ -29,7 +29,7 @@ header {
     transition: color 0.8s infinite;
 }
 .active {
-    /* font-size: 1.5rem; */
+    font-size: 1rem;
     opacity: 1;
     color:#f3ac98;
     transition: color 0.8s ease-in-out;
@@ -68,11 +68,12 @@ header {
     width: 100%;
     min-height: 15rem;
     justify-content: space-between;
+    color: #0a1b35 
   }
   #buttons-container button {
     border: 2px solid #f3ac98;
     padding: auto;
-    /* width: 20rem; */
+    width: 20rem;
   }
   
   #buttons-container button:hover {
@@ -80,6 +81,11 @@ header {
     cursor: pointer;
   } 
 
+  .link-clicked {
+    color: #0a1b35; /* Remove a mudança de cor no texto após clicado, modificando a cor do texto para azul.*/
+    pointer-events: none; 
+    text-decoration-color: #0a1b35; /* Impede que novos eventos de clique sejam disparados na tag */
+  }
   footer {
     height: 100px;
     display: flex;

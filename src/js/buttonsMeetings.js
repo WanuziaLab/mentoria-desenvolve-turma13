@@ -8,7 +8,7 @@ fetch('/src/utils/locale.json')
   .then(data => {
     setTimeout(() => {
       const buttonsContainer = document.querySelector('#buttons-container');
-      data.buttons.forEach(button => {
+      data.videos.forEach(button => {
         const newButton = document.createElement('button');
         const newAnchor = document.createElement('a');
         newAnchor.textContent = button.text;
