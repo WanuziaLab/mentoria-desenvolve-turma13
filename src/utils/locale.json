@@ -1,0 +1,51 @@
+{
+    "buttons": [
+   {
+        "text": "Agende com a mentoria",
+        "link":"/mentoria"
+      },
+  {
+        "text": "Board da Turma 13",
+        "link": "https://miro.com/app/board/uXjVPszXvBw=/"
+      },
+      {
+        "text": "Figma do site",
+        "link": "https://www.figma.com/file/T78yJg2J1EW0czgdFFmPc9/Mentoria-Desenvolve-2023?node-id=1%3A709&t=mw68uNFiDXlfEuXQ-1"
+      },
+   {
+        "text": "Gravações dos encontros",
+        "link": "/meetings"
+          }
+        ],
+  
+    "videos": [{
+    "text": "Git e Github",
+    "link": "https://drive.google.com/file/d/1b3Lsug176_wJqNPAWGriP8FLa_Cp0BAv/view"
+    },
+    {
+    "text": "Carreira em Tech",
+    "link": "https://drive.google.com/file/d/1w3p7Ya_WhWeThJjdJdVhsw2Di1dDIv5l/view"
+    }],
+  
+    "mentors": [
+    {
+    "image": "https://res.cloudinary.com/drz2mebia/image/upload/v1678655924/mentoria-desenvolve/jess_mentora_xnbift.jpg",
+    "name": "Jéssica Tavares",
+    "description": "Carreira",
+    "url": "https://calendar.app.google/RcvgGU4J4kzsnJUY8"
+    },
+    {
+    "image": "https://res.cloudinary.com/drz2mebia/image/upload/v1678655920/mentoria-desenvolve/sicuto-mentor_ywqpee.jpg",
+    "name": "Gabriel Sicuto",
+    "description": "Especialista",
+    "url": "https://calendar.app.google/VpwdmPe7bNSHDgQg8"
+    },
+    {
+    "image": "https://res.cloudinary.com/drz2mebia/image/upload/v1678655918/mentoria-desenvolve/wanuzia-mentor_gjj3xa.jpg",
+    "name": "Wanuzia Braga",
+    "description": "Técnico",
+    "url": "https://calendar.app.google/4AfqysCPFuAYGEcL7"
+    }
+    ]
+  }
+ 
