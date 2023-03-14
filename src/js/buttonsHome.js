@@ -1,4 +1,4 @@
-fetch('/src/utils/locale.json')
+fetch('https://wanuzialab.github.io/Mentoria-Desenvolve-Turma13/src/utils/locale.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
