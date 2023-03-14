@@ -1,6 +1,10 @@
 # Mentoria-Desenvolve
 Aplicação criada para fornecer links atualizados aos participantes do Desenvolve 2023, Turma 13, sob mentoria de Gabriel Sicuto (Mentor Especialista), Jéssica Tavares (Mentora de Carreira) e Wanuzia Braga (Mentora Técnica).
 
+### Figma
+
+[Layout da aplicação](https://www.figma.com/file/T78yJg2J1EW0czgdFFmPc9/Mentoria-Desenvolve-2023?node-id=1%3A709&t=mw68uNFiDXlfEuXQ-1)
+
 ## Páginas:
 - [x] Início
 - [x] Mentoria
