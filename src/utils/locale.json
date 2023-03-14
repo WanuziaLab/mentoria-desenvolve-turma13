@@ -14,7 +14,7 @@
       },
    {
         "text": "Gravações dos encontros",
-        "link": "/meetings"
+        "link": "pages/meetings.html"
           }
         ],
   
@@ -25,7 +25,12 @@
     {
     "text": "Carreira em Tech",
     "link": "https://drive.google.com/file/d/1w3p7Ya_WhWeThJjdJdVhsw2Di1dDIv5l/view"
-    }],
+    },
+   { 
+    "text": "Desafio Linha de Comando",
+    "link": ""
+  }
+  ],
   
     "mentors": [
     {
