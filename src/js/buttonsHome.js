@@ -6,14 +6,15 @@ fetch('src/utils/locale.json')
     return response.json();
   })
     .then(data => {
-        const buttonsContainer = document.querySelector('#buttons-container')
-  
-        data.buttons.forEach(button => { // Itera sobre os itens da propriedade 'buttons' no objeto de dados.
-            const newButton = document.createElement('button'); // Cria um novo elemento de botão.
-            newButton.textContent = button.text; // Define o texto do botão com a propriedade 'text' do objeto iterado.
-            newButton.href = button.link; // Define o link do botão com a propriedade 'link' do objeto iterado.
-            
-            buttonsContainer.appendChild(newButton); // Adiciona o novo botão ao container de botões.
-          });
+      const buttonsContainer = document.querySelector('#buttons-container');
+      data.buttons.forEach(button => {
+        const newButton = document.createElement('button');
+        const newAnchor = document.createElement('a');
+        newAnchor.textContent = button.text;
+        newAnchor.href = button.link;
+        newAnchor.target = "_blank"; 
+        newButton.appendChild(newAnchor);
+        buttonsContainer.appendChild(newButton);
+      });
     })
   .catch(error => console.error('Fetch error:', error));
