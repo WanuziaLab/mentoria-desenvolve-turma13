@@ -17,12 +17,6 @@ fetch('https://wanuzialab.github.io/mentoria-desenvolve-turma13/src/utils/locale
         newButton.appendChild(newAnchor);
         buttonsContainer.appendChild(newButton);
       })
-      const buttonTextAnchors = buttonsContainer.querySelectorAll('button a'); // todos as tags 'a' dentro de botões
-      buttonTextAnchors.forEach(tag => {
-      tag.addEventListener('click', () => {
-      tag.classList.toggle('link-clicked'); 
-    });
-  });
     }, 3000);
   
     })
