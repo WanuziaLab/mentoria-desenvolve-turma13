@@ -2,7 +2,7 @@
     "buttons": [
    {
         "text": "Agende com a mentoria",
-        "link":"/mentoria"
+        "link":"pages/mentoria.html"
       },
   {
         "text": "Board da Turma 13",
@@ -28,7 +28,7 @@
     },
    { 
     "text": "Desafio Linha de Comando",
-    "link": ""
+    "link": "https://drive.google.com/file/d/1E-jS109dvouqFhMMFzrNQSNDhhcRxoXR/view?usp=sharing"
   }
   ],
   
