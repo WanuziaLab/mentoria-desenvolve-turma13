@@ -48,7 +48,7 @@ header {
     }
 
     50% {
-      opacity: 0.5;
+      opacity: 0.75;
     }
 
     100% {
@@ -93,3 +93,64 @@ header {
     align-items: center;
     text-align: center;
   }
+  /*Página mentoria*/
+  
+  #cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fade-in-out 10s;
+  width: 340px;
+  justify-content: center;
+  }
+
+  .mentor-card {
+  display: flex;
+  margin: 1.5rem 0;
+  max-width: 280px;
+  align-self: center;
+  }
+
+  .mentor-image-box{
+  max-width: 120px;
+  max-height: 120px;
+  align-self: center;
+  }
+
+  .mentor-image {
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #f3ac98;
+  }
+
+  .mentor-details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 10px;
+  }
+
+  .mentor-name {
+  margin-bottom: 4px;
+  color: #0a1b35;
+  font-family: 'Comfortaa', 'cursive';
+  }
+  .mentor-button {
+  min-width: 200px;
+  cursor: pointer;
+  }
+  .mentor-button:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+    @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+   
+  .mentor-link {
+    color:#f3ac98;
+    }
