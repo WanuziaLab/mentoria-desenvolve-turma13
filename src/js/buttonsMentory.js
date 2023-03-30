@@ -9,15 +9,15 @@ fetch('https://wanuzialab.github.io/mentoria-desenvolve-turma13/src/utils/locale
     setTimeout(() => {
       const cardsContainer = document.querySelector('#cards-container');
       data.mentors.forEach(mentor => {
-        const newMentorCard = document.createElement('div')
+        const newMentorCard = document.createElement('div');
         newMentorCard.classList.add('mentor-card');
 
-        const imageBox = document.createElement('div')
+        const imageBox = document.createElement('div');
         imageBox.classList.add('mentor-image-box');
         const newImg = document.createElement('img');
         newImg.classList.add('mentor-image');
 
-        const mentorDetails = document.createElement('div')
+        const mentorDetails = document.createElement('div');
         mentorDetails.classList.add('mentor-details');
 
         const newName = document.createElement('span');
