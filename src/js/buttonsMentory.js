@@ -1,9 +1,9 @@
 fetch('https://wanuzialab.github.io/mentoria-desenvolve-turma13/src/utils/locale.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
+.then(response => {
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json();
   })
   .then(data => {
     setTimeout(() => {
