@@ -1,0 +1,92 @@
+@media (min-width: 1280px) {
+    section {
+        height: 30rem;
+    }
+
+    #buttons-container button {
+        width: 100%;
+        padding: 0 6rem;
+    }
+    #buttons-container button a {
+        font-size: calc(2 * 13.333px);
+    }
+
+    footer p,
+    header p,
+    .active {
+        font-size: calc(2 * 10px);
+    }
+
+    header p {
+        padding: 4rem 0;
+    }
+
+    footer {
+        margin-top: 3rem 0;
+    }
+
+    .logo {
+        width: calc(1.5 * 100px);
+    }
+}
+
+@media (min-width: 1920px) {
+    section {
+        height: 45rem;
+    }
+
+    #buttons-container button {
+        width: 100%;
+        padding: 0 12rem;
+    }
+
+    #buttons-container button a {
+        font-size: calc(3 * 13.333px);
+    }
+
+    footer p,
+    header p,
+    .active {
+        font-size: calc(3 * 10px);
+    }
+    header p {
+        padding: 5rem 0;
+    }
+
+    footer {
+        margin-top: 8rem;
+    }
+
+    .logo {
+        width: calc(2 * 100px);
+    }
+}
+
+@media (min-width: 3840px) {
+    section {
+        height: 65rem;
+    }
+
+    #buttons-container button {
+        width: 100%;
+        padding: 0 18rem;
+    }
+
+    #buttons-container button a {
+        font-size: calc(5 * 13.333px);
+    }
+    footer p,
+    header p,
+    .active {
+        font-size: calc(5 * 10px);
+    }
+    header p {
+        padding: 10rem 0;
+    }
+    footer {
+        margin-top: 20rem;
+    }
+    .logo {
+        width: calc(4 * 100px);
+    }
+}
